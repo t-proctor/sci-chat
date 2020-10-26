@@ -53,7 +53,9 @@ const Header = () => {
             </span>
 
             <span className="cta-btn cta-btn--hero">
-              <a href="mailto:contact@sci.chat">Contact</a>
+              {/* <a href="mailto:contact@sci.chat">Contact</a> */}
+              <a href="mailto:sci.chat.contact@gmail.com">Contact</a>
+
 
               {/* <Link to="mailto:contact@sci.chat" smooth duration={1000}>
                 {cta || 'Contact'}
