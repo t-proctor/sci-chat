@@ -37,9 +37,9 @@ const Header = () => {
             {subtitle || ', no BS'}{' '} */}
 
           </h1>
-          <h1 className = "hero-subtitle">It’s getting hard to talk about anything meaningful. There’s too much chatter about politics and entertainment. It's hard to find others to talk about the most impactful thing in the world, science. sci.chat pairs people who want to talk about science.</h1>
+          <h1 className = "hero-subtitle">There’s too much chatter about politics and entertainment. It's hard to find others to talk about the most impactful thing in the world, science. sci.chat pairs people who want to talk about science.</h1>
           <br/>
-          <h1 className = "hero-subtitle">$10 a month. First month free. No payment info required to start. </h1>
+          {/* <h1 className = "hero-subtitle">$10 a month. First month free. No payment info required to start. </h1> */}
 
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
